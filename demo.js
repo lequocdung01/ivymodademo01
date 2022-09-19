@@ -37,6 +37,15 @@ window.addEventListener("scroll",function(){
         header.classList.remove("sticky")
     }
 })
+//-------------------------------------MENU SLIDER-CARTEGORY---------------------------------------//
+
+const itemsliderbar=document.querySelectorAll(".cartegory-left-li")
+itemsliderbar.forEach(function(menu,index){
+    menu.addEventListener("click",function(){
+        menu.classList.toggle("block")
+    })
+})
+
 /*const imgmax = document.querySelectorAll(".image img")
 let imgs = imgmax.length
 var index=1;
